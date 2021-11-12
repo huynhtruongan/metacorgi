@@ -1,5 +1,5 @@
 const btnJoinTelegram = document.querySelector('.btn-telegram');
-const telegramURL = 'https://www.google.com';
+const telegramURL = 'https://t.me/metacorgi';
 function openURL(url) {
   window.open(url);
 }
