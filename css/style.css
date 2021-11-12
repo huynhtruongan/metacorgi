@@ -4,6 +4,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 html {
   font-size: 14px;
   scroll-behavior: smooth;
@@ -158,7 +159,15 @@ html {
   html #ourpartners .ourpartner-image--item--part2 div:nth-child(1) {
     line-height: 425%;
   }
+  html #ourpartners .social-media {
+    display: inline-block;
+    width: 100%;
+  }
+  html #ourpartners .social-media--item {
+    width: 100%;
+  }
 }
+
 body {
   font-family: 'Lato', sans-serif;
   line-height: 1.7;
@@ -361,6 +370,7 @@ body {
   font-weight: 900;
   font-style: italic;
 }
+
 #roadmap {
   background: url(../images/background/roadmap_bg.jpg) no-repeat center;
   color: #010103;
@@ -545,6 +555,7 @@ body {
   color: #51c0e9;
   font-size: 500%;
 }
+
 .footer {
   width: 100%;
   border-top: solid 1px #d2d1d3;
