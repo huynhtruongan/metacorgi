@@ -12,3 +12,4 @@ function fn() {
   mid.classList.toggle('menu-icon-mid');
   end.classList.toggle('menu-icon-end');
 }
+menu.addEventListener('click', fn);
