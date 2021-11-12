@@ -379,7 +379,7 @@ body {
   font-weight: 700;
 }
 #roadmap .roadmap--wrapper {
-  padding: 30px 10%;
+  padding: 30px 10% 0;
 }
 #roadmap h3 {
   position: relative;
