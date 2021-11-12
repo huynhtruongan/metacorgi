@@ -13,4 +13,4 @@ function btnClick(el, url) {
   });
 }
 btnClick(btnJoinTelegram, telegramURL);
-btnClick(btnSaleDetail, saleURL);
+
