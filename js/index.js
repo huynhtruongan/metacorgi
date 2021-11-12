@@ -1,8 +1,5 @@
 const btnJoinTelegram = document.querySelector('.btn-telegram');
-const btnSaleDetail = document.querySelector('.btn-saledetail');
-const saleURL =
-  'https://dxsale.app/app/v3/defipresale?saleID=1258&chain=BSC#DxWarning-modal';
-const telegramURL = 'https://t.me/MetaCorgiOficial';
+const telegramURL = 'https://www.google.com';
 function openURL(url) {
   window.open(url);
 }
