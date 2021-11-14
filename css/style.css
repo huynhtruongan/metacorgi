@@ -86,6 +86,8 @@ html {
     html #dog-dragon-theme {
       display: inline-block;
       text-align: center; }
+      html #dog-dragon-theme img:nth-child(1) {
+        width: 300px; }
     html .chart {
       flex-direction: column; }
       html .chart--image {
