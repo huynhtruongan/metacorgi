@@ -21,7 +21,8 @@ html {
     html .slogan {
       margin-top: 0;
       padding-left: 15%;
-      padding-bottom: 10%; }
+      padding-bottom: 10%;
+      padding-right: 0; }
       html .slogan--content {
         width: 100%; }
         html .slogan--content h3 {
@@ -55,7 +56,7 @@ html {
     html .menu-hidden {
       width: 40px;
       position: absolute;
-      right: 5%;
+      right: 30%;
       z-index: 1000;
       transition-duration: 1s; }
       html .menu-hidden:hover {
@@ -79,7 +80,7 @@ html {
   @media (max-width: 600px) {
     html .slogan--content {
       padding-bottom: 10%;
-      padding-right: 0; }
+      padding-right: 20%; }
       html .slogan--content h3 {
         text-align: center;
         width: 100%; }
