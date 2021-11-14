@@ -17,14 +17,17 @@ html {
       background: #010103; }
       html .header .logo {
         display: block;
-        position: absolute; }
+        position: absolute;
+        left: 2%;
+        top: 5%; }
     html .slogan {
       margin-top: 0;
-      padding-left: 15%;
+      padding-left: 10%;
       padding-bottom: 10%;
       padding-right: 0; }
       html .slogan--content {
-        width: 100%; }
+        width: 100%;
+        padding-bottom: 20%; }
         html .slogan--content h3 {
           width: 46%;
           padding: 10px 0; }
@@ -56,6 +59,7 @@ html {
     html .menu-hidden {
       width: 40px;
       position: absolute;
+      top: 10%;
       right: 30%;
       z-index: 1000;
       transition-duration: 1s; }
@@ -78,10 +82,13 @@ html {
         transition-duration: 1s;
         background-color: #2d2a2a !important; } }
   @media (max-width: 600px) {
+    html .logo {
+      left: 7% !important; }
     html .slogan--content {
-      padding-bottom: 10%;
-      padding-right: 20%; }
+      padding-bottom: 30%;
+      padding-right: 10%; }
       html .slogan--content h3 {
+        padding: 0 30px 20px;
         text-align: center;
         width: 100%; }
       html .slogan--content p {
@@ -133,7 +140,7 @@ body {
   .header button {
     position: absolute;
     bottom: 30px;
-    left: 10%;
+    left: 0;
     padding: 15px 30px;
     border-radius: 3px;
     text-decoration: none;
@@ -142,7 +149,8 @@ body {
     text-transform: uppercase;
     color: #fff;
     font-weight: 400;
-    font-size: 130%; }
+    font-size: 130%;
+    z-index: 900; }
     .header button:hover {
       background-color: #51c0e9;
       transition-duration: 0.5s;
@@ -150,7 +158,7 @@ body {
 
 #particles-js {
   position: relative;
-  padding: 30px 0;
+  padding: 30px 0 0;
   height: 100%; }
 
 .particles-js-canvas-el {
@@ -162,16 +170,18 @@ body {
   clear: both;
   display: table; }
 
+.logo {
+  display: none;
+  width: 7%; }
+  .logo img {
+    width: 100%; }
+
 .navigate_bar {
   padding: 0 30px;
   position: absolute;
+  top: 0;
   right: 0;
   z-index: 1000; }
-  .navigate_bar .logo {
-    display: none;
-    width: 7%; }
-    .navigate_bar .logo img {
-      width: 100%; }
   .navigate_bar--right .menu--toggle {
     list-style: none;
     margin: 0;
@@ -201,6 +211,7 @@ body {
   padding-right: 20%;
   padding-bottom: 10%; }
   .slogan--content {
+    position: relative;
     width: 80%;
     padding-right: 50px;
     color: #fff; }
