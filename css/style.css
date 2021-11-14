@@ -20,6 +20,8 @@ html {
         position: absolute;
         left: 2%;
         top: 5%; }
+      html .header .navigate_bar {
+        top: 0; }
     html .slogan {
       margin-top: 0;
       padding-left: 10%;
@@ -59,7 +61,7 @@ html {
     html .menu-hidden {
       width: 40px;
       position: absolute;
-      top: 10%;
+      top: 20px;
       right: 30%;
       z-index: 1000;
       transition-duration: 1s; }
@@ -85,7 +87,6 @@ html {
     html .logo {
       left: 7% !important; }
     html .slogan--content {
-      padding-bottom: 30%;
       padding-right: 10%; }
       html .slogan--content h3 {
         padding: 0 30px 20px;
@@ -139,7 +140,7 @@ body {
   background-size: cover; }
   .header button {
     position: absolute;
-    bottom: 30px;
+    bottom: 0;
     left: 0;
     padding: 15px 30px;
     border-radius: 3px;
@@ -179,7 +180,7 @@ body {
 .navigate_bar {
   padding: 0 30px;
   position: absolute;
-  top: 0;
+  top: 5%;
   right: 0;
   z-index: 1000; }
   .navigate_bar--right .menu--toggle {
@@ -214,7 +215,8 @@ body {
     position: relative;
     width: 80%;
     padding-right: 50px;
-    color: #fff; }
+    color: #fff;
+    padding-bottom: 8%; }
     .slogan--content h3 {
       font-size: 300%;
       width: 60%;
