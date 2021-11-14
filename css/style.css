@@ -100,7 +100,8 @@ html {
     html #roadmap .phase--item {
       padding: 30px 0 15px; }
     html #ourpartners .ourpartner-image--item {
-      margin: 0 auto; }
+      margin: 0 auto;
+      width: 150px; }
       html #ourpartners .ourpartner-image--item--part1 {
         flex-direction: column; }
       html #ourpartners .ourpartner-image--item--part2 div:nth-child(1) {
