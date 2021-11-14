@@ -25,48 +25,49 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="header">
-        <div class="navigate_bar">
-          <div class="logo">
-            <img src="images/logo/metacorgi.png" alt="MetaFloki logo" />
-          </div>
-          <div class="navigate_bar--right">
-            <nav class="menu">
-              <ul class="menu--toggle clearfix">
-                <li><a href="#home">home</a></li>
-                <li><a href="#aboutus">about us</a></li>
-                <li><a href="#tokenomics">tokenomics</a></li>
-                <li><a href="#roadmap">roadmap</a></li>
-                <li><a href="#ourpartners">our partners</a></li>
-              </ul>
-            </nav>
-            <div class="menu-hidden">
-              <div class="first"></div>
-              <div class="mid"></div>
-              <div class="end"></div>
+      <div id="particles-js">
+        <div class="header">
+          <div class="navigate_bar">
+            <div class="logo">
+              <img src="images/logo/metacorgi.png" alt="MetaFloki logo" />
+            </div>
+            <div class="navigate_bar--right">
+              <nav class="menu">
+                <ul class="menu--toggle clearfix">
+                  <li><a href="#home">home</a></li>
+                  <li><a href="#aboutus">about us</a></li>
+                  <li><a href="#tokenomics">tokenomics</a></li>
+                  <li><a href="#roadmap">roadmap</a></li>
+                  <li><a href="#ourpartners">our partners</a></li>
+                </ul>
+              </nav>
+              <div class="menu-hidden">
+                <div class="first"></div>
+                <div class="mid"></div>
+                <div class="end"></div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="slogan">
-          <div class="slogan--content">
-            <h3>World's Best Community Coin</h3>
-            <p>
-              Metacorgi has learned a few tricks and lessons from his meme
-              father, Doge. A new crypto birthed by fans of the Doge Meme online
-              community. Metacorgi seeks to impress his father by showing his
-              new improved transaction speeds & adorableness. He is
-              Hyper-deflationary with static reflections that rewards holders,
-              so more Metacorgi coins are being automatically added to your
-              wallet each transaction. Simply Love, pet, and hold as 7% from
-              each transaction is automatically redistributed to Metacorgi
-              holders.
-            </p>
-          </div>
+          <div class="slogan">
+            <div class="slogan--content">
+              <h3>World's Best Community Coin</h3>
+              <p>
+                Metacorgi has learned a few tricks and lessons from his meme
+                father, Doge. A new crypto birthed by fans of the Doge Meme
+                online community. Metacorgi seeks to impress his father by
+                showing his new improved transaction speeds & adorableness. He
+                is Hyper-deflationary with static reflections that rewards
+                holders, so more Metacorgi coins are being automatically added
+                to your wallet each transaction. Simply Love, pet, and hold as
+                7% from each transaction is automatically redistributed to
+                Metacorgi holders.
+              </p>
+            </div>
 
-          <button class="btn-telegram">join telegram</button>
+            <button class="btn-telegram">join telegram</button>
+          </div>
         </div>
       </div>
-
       <div class="section-wrapper">
         <div class="aboutus--wrapper">
           <section id="aboutus">
@@ -268,5 +269,11 @@
     </div>
     <script src="js/index.js"></script>
     <script src="js/menu-toggle.js"></script>
+    <script src="particles/particles.js"></script>
+    <script>
+      particlesJS.load('particles-js', 'particles.json', function () {
+        console.log('callback - particles.js config loaded');
+      });
+    </script>
   </body>
 </html>
