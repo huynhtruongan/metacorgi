@@ -123,6 +123,10 @@ body {
   background-size: cover;
   padding-top: 30px; }
 
+.particles-js-canvas-el {
+  position: absolute;
+  top: 0; }
+
 .clearfix::after {
   content: '';
   clear: both;
