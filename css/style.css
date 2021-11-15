@@ -11,6 +11,11 @@ html {
       font-size: 200%; }
     html .slogan--content p {
       font-size: 120%; } }
+  @media (max-width: 1245px) {
+    html #dog-dragon-theme img {
+      width: 30%; }
+      html #dog-dragon-theme img:nth-child(2) {
+        width: 56%; } }
   @media (max-width: 900px) {
     html .header {
       height: 100%;
@@ -82,7 +87,11 @@ html {
       html .menu-hidden .menu-icon-end {
         transform: rotate(-50deg) translate(8px, -8px);
         transition-duration: 1s;
-        background-color: #2d2a2a !important; } }
+        background-color: #2d2a2a !important; }
+    html #dog-dragon-theme img {
+      width: 30%; }
+      html #dog-dragon-theme img:nth-child(2) {
+        width: 56%; } }
   @media (max-width: 600px) {
     html .logo {
       left: 7% !important; }
@@ -101,6 +110,8 @@ html {
       text-align: center; }
       html #dog-dragon-theme img:nth-child(1) {
         width: 300px; }
+      html #dog-dragon-theme img:nth-child(2) {
+        width: 100%; }
     html .chart {
       flex-direction: column; }
       html .chart--image {
@@ -258,10 +269,10 @@ body {
   display: flex;
   justify-content: space-around; }
   #dog-dragon-theme img {
-    width: 200px;
+    width: 421px;
     vertical-align: middle; }
-    #dog-dragon-theme img:nth-child(1) {
-      width: 421px; }
+    #dog-dragon-theme img:nth-child(2) {
+      width: 796px; }
 
 #tokenomics {
   background-size: cover; }
